@@ -26,12 +26,9 @@
 
 ## 🖼 프로그램 스크린샷
 
-> 아래에 `main.exe` 실행 화면을 캡처하여 추가하세요.
 
-```markdown
-![프로그램 스크린샷](screenshot.png)
-![쿠키 내보내기](./cookie.PNG)
-```
+![프로그램 스크린샷](main_gui.png)
+
 
 ---
 
@@ -42,11 +39,13 @@ Python 설치 없이 **실행 파일(.exe)** 로 사용하는 것을 권장합�
 1. **릴리즈 페이지 이동:** 저장소의 [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) 탭으로 이동합니다.
 2. **파일 다운로드:** 최신 버전의 `TalkCloud_Backup.exe` 파일을 다운로드합니다.
 3. **쿠키 확장 프로그램 설치:** [Get cookies.txt LOCALLY](https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc/) 설치.
-4. **톡클라우드 접속:** [https://talkcloud.kakao.com](https://talkcloud.kakao.com) 에 접속하여 로그인합니다.
+4. **톡클라우드 접속:** [https://talkcloud.kakao.com/home](https://talkcloud.kakao.com/home) 에 접속하여 로그인합니다.
 5. **쿠키 파일 내보내기:**
    - 톡클라우드 사이트가 열린 상태에서 확장 프로그램 아이콘 클릭 → `Export` 버튼 클릭.
+   - ![쿠키 내보내기](./save_cookie.png)
    - `talkcloud.kakao.com_cookies.txt` 파일이 다운로드됩니다.
-![쿠키 내보내기](./cookie.PNG)
+
+
 6. **파일 배치:**
    - 새 폴더 생성 (예: `D:\카톡백업`)
    - `TalkCloud_Backup.exe` 와 `talkcloud.kakao.com_cookies.txt` 를 함께 넣습니다.
@@ -85,7 +84,7 @@ Python 설치 없이 **실행 파일(.exe)** 로 사용하는 것을 권장합�
 
 - 프로그램은 기본적으로 `talkcloud.kakao.com_cookies.txt` 파일을 찾습니다.
 - 없을 경우, 하위 호환용으로 `drive.kakao.com_cookies.txt` 를 확인합니다.
-- 가급적 `talkcloud.kakao.com`**에서 받은 쿠키** 사용을 권장합니다.
+- 가급적 `talkcloud.kakao.com/home`**에서 받은 쿠키** 사용을 권장합니다.
 
 ---
 
